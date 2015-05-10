@@ -1,8 +1,8 @@
 {
   "usc-cs/test_md_website" : {
-    "target": "test_receive2"
+    "target": "test_receive"
   },
   "username_or_orgname/reponame" : {
     "target": "target_url"
-  },
+  }
 }
