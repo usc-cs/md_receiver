@@ -27,9 +27,9 @@ def log(to_log):
 
 def shell(command, cwd=None):
 	if cwd is None:
-		log('/: ' + command)
+		log('> /: ' + command)
 	else:
-		log(cwd + '/: ' + command)
+		log('> ' + cwd + '/: ' + command)
 
 	shell_output = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd)
 	
@@ -76,7 +76,6 @@ if repo_fullname in sites:
 	if os.path.isdir(dir_name):
 		# first update the url in config
 		newurl = 'http://bits.usc.edu/' + target
-		log('replacing site URL in ' + dir_name + '/_config.yml to ' + newurl)
 		replace_line_if_starts_with(dir_name + '/_config.yml', 'url:', "url: '" + newurl + "'\n")
 
 		# build
