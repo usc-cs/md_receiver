@@ -63,6 +63,7 @@ def replace_line_if_starts_with(filename, prefix, replacement):
 
 repo_fullname = sys.argv[1]
 repo_name = repo_fullname[repo_fullname.index('/')+1:]
+pusher_email = sys.argv[2]
 
 if repo_fullname in sites:
 	target = sites[repo_fullname]['target']
@@ -82,8 +83,8 @@ if repo_fullname in sites:
 		shell('jekyll build', dir_name)
 
 		# clean old built directory, and move
-		shell('rm -rf *', '../' + target)
-		shell('cp -r ' + dir_name + '/_site/* ../' + target)
+		shell('rm -rf ../md/' + target)
+		shell('cp -r ' + dir_name + '/_site ../md/' + target)
 
 		# Remove the temporary clone
 		shell('rm -rf ' + dir_name)
@@ -91,15 +92,15 @@ if repo_fullname in sites:
 		# send email
 		email('Website deployed for ' + repo_fullname,
 			'Successful Deploy!\n\nFull logs:\n\n' + '\n'.join(logs),
-			'peter.comgen@gmail.com')
+			pusher_email)
 	else:
 		email('Clone unsuccessful for ' + repo_fullname,
 			'We tried to clone your repository ' + repo_fullname + ', but was unsuccessful. Did you give permission to the bot?\n\nFull logs:\n\n' '\n'.join(logs),
-			'peter.comgen@gmail.com')
+			pusher_email)
 
 else:
 	email('Repository ' + repo_fullname + 'not registered',
 			'We tried to deploy your repository ' + repo_fullname + ', but was unsuccessful. Have you registered your site with the Markdown service?',
-			'peter.comgen@gmail.com')
+			pusher_email)
 
 print logs

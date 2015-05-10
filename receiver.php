@@ -15,7 +15,7 @@ if ($hash !== $payloadHash) {
 }
 
 if ($data->ref == 'refs/heads/deploy') {
-        echo shell_exec('python receiver.py ' . $data->repository->full_name);
+        echo shell_exec('python receiver.py ' . $data->repository->full_name . ' ' . $data->pusher->email);
         echo 'success ' . $data->repository->full_name;
 } else {
         echo 'not deploy branch';
