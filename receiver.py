@@ -21,6 +21,7 @@ with open('sites.json', 'r') as file:
 	sites = json.loads(file.read())
 
 def log(to_log):
+	to_log = to_log.replace(githubPassword, '[REDACTED]')
 	logs.append(to_log)
 	return to_log
 
