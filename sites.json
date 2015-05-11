@@ -7,5 +7,8 @@
   },
   "username_or_orgname/reponame" : {
     "target": "target_url"
+  },
+  "peetahzee/mdtest": {
+    "target": "peter"
   }
 }
