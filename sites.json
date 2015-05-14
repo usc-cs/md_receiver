@@ -8,6 +8,9 @@
   "username_or_orgname/reponame" : {
     "target": "target_url"
   },
+  "usc-csci104-summer2015/course_website": {
+    "target": "csci104_su15"
+  },
   "peetahzee/mdtest": {
     "target": "peter"
   }
