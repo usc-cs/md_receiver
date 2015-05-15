@@ -11,6 +11,9 @@
   "usc-csci104-summer2015/course_website": {
     "target": "csci104_su15"
   },
+  "mredekopp/ee457_su15a_web": {
+    "target": "ee457a"
+  },  
   "peetahzee/mdtest": {
     "target": "peter"
   }
