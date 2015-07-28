@@ -18,6 +18,10 @@ For simplicity's sake, the main entry point is `receiver.php`. PHP will handle t
 
 ### Installation
 
+#### Tools
+
+Be sure you have jekyll version `2.5.3` or higher as the current `receiver.py` script works with this version.  This may also require installation or `redcarpet` or other needed packages.
+
 #### Config
 
 For security purposes, we do not include the necessary config or secret files in the repository. Instead, they'll be read from a file. There are two config files necessary:
