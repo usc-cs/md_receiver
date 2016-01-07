@@ -15,7 +15,16 @@
     "target": "ee457b"
   },  
   "usc-csci104-summer2015/course_website": {
-    "target": "cs104_su15"
+    "target": "cs104-su15"
+  },
+  "usc-csci104-fall2015/course_website": {
+    "target": "cs104-fa15"
+  },
+  "usc-csci104-spring2016/course_website": {
+    "target": "cs104"
+  },
+  "usc-ee209/course_website": {
+    "target": "ee209"
   },
   "peetahzee/mdtest": {
     "target": "peter"
