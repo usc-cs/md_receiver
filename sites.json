@@ -12,7 +12,7 @@
     "target": "ee457a"
   },  
   "mredekopp/ee457_su15b_web": {
-    "target": "ee457b"
+    "target": "ee457"
   },  
   "usc-csci104-summer2015/course_website": {
     "target": "cs104-su15"
@@ -22,6 +22,9 @@
   },
   "usc-csci104-spring2016/course_website": {
     "target": "cs104"
+  },
+  "usc-csci104-summer2016/course_website": {
+    "target": "cs104-su16"
   },
   "usc-ee209/course_website": {
     "target": "ee209"
