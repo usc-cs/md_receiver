@@ -21,10 +21,10 @@
     "target": "cs104-fa15"
   },
   "usc-csci104-spring2016/course_website": {
-    "target": "cs104"
+    "target": "cs104-sp16"
   },
   "usc-csci104-summer2016/course_website": {
-    "target": "cs104-su16"
+    "target": "cs104"
   },
   "usc-ee209/course_website": {
     "target": "ee209"
