@@ -9,10 +9,10 @@
     "target": "target_url"
   },
   "mredekopp/ee457_su15a_web": {
-    "target": "ee457a"
+    "target": "ee457a-su15"
   },  
   "mredekopp/ee457_su15b_web": {
-    "target": "ee457"
+    "target": "ee457-su15"
   },  
   "usc-csci104-summer2015/course_website": {
     "target": "cs104-su15"
@@ -28,6 +28,9 @@
   },
   "usc-ee209/course_website": {
     "target": "ee209"
+  },
+  "usc-ee457-summer2016/course_website": {
+    "target": "ee457"
   },
   "peetahzee/mdtest": {
     "target": "peter"
