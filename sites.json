@@ -24,13 +24,22 @@
     "target": "cs104-sp16"
   },
   "usc-csci104-summer2016/course_website": {
+    "target": "cs104-su16"
+  },
+  "usc-csci104-fall2016/course_website": {
+    "target": "cs104-fa16"
+  },
+  "usc-csci104-spring2017/course_website": {
     "target": "cs104"
   },
-  "usc-ee209/course_website": {
+  "usc-ee209-fall2016/course_website": {
     "target": "ee209"
   },
   "usc-ee457-summer2016/course_website": {
     "target": "ee457"
+  },
+  "usc-csci104-summer2017/course_website": {
+    "target": "cs104-su17"
   },
   "peetahzee/mdtest": {
     "target": "peter"
