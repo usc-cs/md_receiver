@@ -30,16 +30,22 @@
     "target": "cs104-fa16"
   },
   "usc-csci104-spring2017/course_website": {
-    "target": "cs104"
+    "target": "cs104-sp17"
   },
   "usc-ee209-fall2016/course_website": {
     "target": "ee209"
   },
   "usc-ee457-summer2016/course_website": {
-    "target": "ee457"
+    "target": "ee457-su16"
   },
   "usc-csci104-summer2017/course_website": {
-    "target": "cs104-su17"
+    "target": "cs104"
+  },
+  "usc-csci350-summer2017/course_website": {
+    "target": "cs350"
+  },
+  "usc-ee457-summer2017/course_website": {
+    "target": "ee457"
   },
   "peetahzee/mdtest": {
     "target": "peter"
